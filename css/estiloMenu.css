@@ -1,0 +1,229 @@
+
+@font-face {
+    font-family: abe;
+    src: url(BebasNeue.otf);
+}
+
+
+Body{
+
+    background-color: #BCC1C4;
+
+}
+
+/*NAV TAB*/
+
+div.tab {
+    overflow: hidden;
+    margin-top: 5%;
+    background-color: #353535;
+}
+
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: white;
+    font-family: abe;
+    font-size: 30px;
+}
+
+
+div.tab button:hover {
+    background-color: #F3F5F4;
+    color: black;
+}
+
+
+div.tab button.active {
+    background-color: #F3F5F4;
+    color: black;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/* registro  */
+
+#registro {
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  padding: 4%;
+
+}
+
+
+#registro .parteI{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+
+}
+
+#registro .parteI p{
+
+  font-family: abe;
+  font-size: 23px;
+
+}
+
+#registro .parteI input{
+
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: abe;
+  background-color: white;
+  height: 40px;
+
+}
+
+#registro .parteI option{
+
+  font-size: 20px;
+  font-family: abe;
+
+}
+#registro .parteI button{
+
+  background-color: #ECC400;
+  border: none;
+  color: black;
+  font-family: abe;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20%;
+
+
+}
+
+#registro .parteII{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  margin-top: 10%;
+  margin-left: 6%;
+
+}
+
+#registro .parteII input{
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: abe;
+  background-color: white;
+
+}
+
+#registro .parteII button{
+
+  background-color: #48B0F7;
+  border: none;
+  color: white;
+  font-family: abe;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+
+}
+
+#registro .parteII .fila1{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+
+}
+
+#registro .parteII .fila2{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  margin-top: 5%;
+
+}
+
+#registro .parteII .fila3{
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  margin-top: 5%;
+
+}
+
+/*cobranza*/
+
+div.Subtab {
+    overflow: hidden;
+    margin-top: 5%;
+    background-color: #F3F5F4;
+}
+
+
+div.Subtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: black;
+    font-family: abe;
+    font-size: 30px;
+}
+
+
+div.Subtab button:hover {
+    background-color: #353535;
+}
+
+
+div.Subtab button.active {
+    background-color: #353535;
+}
+
+
+.Subtabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}

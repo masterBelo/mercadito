@@ -1,0 +1,135 @@
+
+main{
+  height: 100%;
+}
+.hg{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+.cardtxt{
+  color: orange;
+}
+
+.txt1{
+  font-weight: normal;
+}
+.ife{
+  height: 50px;
+}
+.abajeno{
+  width: 100%;
+  padding: .7%;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  text-align: center;
+  font-size: 10px;
+  color: #e76b00;
+}
+
+.imgfooter{
+  margin-top: 5px;
+  height: 30px;
+}
+.modalito{
+  text-align: center !important;
+}
+.arribarriba{
+  background-color: orange !important;
+  color: #fff !important;
+}
+.ediint{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  width: 75%;
+  height: 40px;
+  border-radius: 5px;
+}
+.filint{
+  height: 40px;
+  width: 74% !important;
+}
+.notoy{
+  display: none;
+}
+.botoncillo{
+  background-color: orange;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width:750px){
+  main{
+    height: 100%;
+  }
+.modales{
+  width: 400px!important;
+  }
+.hg{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+.cardtxt{
+  font-size: 35px;
+  color: orange;
+}
+.trarget{
+  width: 600px !important;
+  display: flex;
+}
+.cardcontxt{
+  font-size: 18px !important;
+}
+.txt1{
+  font-weight: normal;
+}
+.ife{
+  height: 150px;
+}
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: #2E2E2E;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0px;
+}
+.imgfooter{
+  margin-top: 5px;
+  height: 30px;
+}
+.modalito{
+  text-align: center !important;
+}
+.arribarriba{
+  background-color: orange !important;
+  color: #fff !important;
+}
+.ediint{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  width: 75%;
+  height: 40px;
+  border-radius: 5px;
+}
+.notoy{
+  display: none;
+}
+.botoncillo{
+  background-color: orange;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.filint{
+  height: 40px;
+  width: 74% !important;
+}
+}
