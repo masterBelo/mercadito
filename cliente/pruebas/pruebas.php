@@ -1646,7 +1646,7 @@
       <g onClick="prueba(this)" id="242" stroke="#BDBDBD" stroke-width=".5px" fill="white">
         <rect x="1040" y="220" width="20" height="20"></rect>
         <text x="1049" y="232" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">242</text>
-      </g>
+      </g> holis
       <g onClick="prueba(this)" id="241" stroke="#BDBDBD" stroke-width=".5px" fill="white">
         <rect x="1060" y="220" width="20" height="20"></rect>
         <text x="1069" y="232" alignment-baseline="middle" text-anchor="middle" fill="black" stroke="none">241</text>
